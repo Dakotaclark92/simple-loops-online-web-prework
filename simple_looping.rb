@@ -21,7 +21,8 @@ end
 
 def while_iterator(7)
   counter  = 0
-  while 
+  while counter < 7
+  
   # hint: user a counter to tell the while loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
