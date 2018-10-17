@@ -23,19 +23,17 @@ def while_iterator(7)
   counter  = 0
   while counter < 7
   puts "Welcome to the Flatiron School's Web Development Course!"
-  # hint: user a counter to tell the while loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  counter += 1
 end
 
-def until_iterator(number_of_times)
-  # code your solution here using the "until" keyword
-  # hint: use a counter to tell the until loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+def until_iterator(7)
+  counter = 0
+  until counter == 7
+  puts "Welcome to the Flatiron School's Web Development Course!"
+  counter += 1
 end
 
-def for_iterator(number_of_times)
+def for_iterator(7)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   
